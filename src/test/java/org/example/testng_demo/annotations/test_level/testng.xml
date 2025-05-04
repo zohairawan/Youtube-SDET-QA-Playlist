@@ -1,0 +1,25 @@
+<suite name = "Suite">
+    <test name = "Hooks Before">
+        <classes>
+            <class name = "org.example.testng_demo.annotations.test_level.HooksBefore"/>
+        </classes>
+    </test>
+
+    <test name = "Test1">
+        <classes>
+            <class name = "org.example.testng_demo.annotations.test_level.C1"/>
+        </classes>
+    </test>
+
+    <test name = "Test2">
+        <classes>
+            <class name = "org.example.testng_demo.annotations.test_level.C2"/>
+        </classes>
+    </test>
+
+    <test name = "HooksAfter">
+        <classes>
+            <class name = "org.example.testng_demo.annotations.test_level.HooksAfter"/>
+        </classes>
+    </test>
+</suite>
